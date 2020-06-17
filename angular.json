@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "santoshyadavdev"
+    }
+  },
+  "defaultProject": "santoshyadavdev",
+  "cli": {
+    "analytics": "d49a6c08-f95a-4631-9ddf-5cb1659e38aa"
+  }
 }
