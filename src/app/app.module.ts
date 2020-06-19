@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { MainNavModule } from './main-nav/main-nav.module';
 import { HomeComponent } from './home/home.component';
-import { BulmaHeroModule, BulmaButtonModule, BulmaContainerModule } from 'ngx2-bulma';
+import { BulmaHeroModule, BulmaButtonModule, BulmaContainerModule, BulmaFooterModule } from 'ngx2-bulma';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +23,7 @@ import { BulmaHeroModule, BulmaButtonModule, BulmaContainerModule } from 'ngx2-b
     BulmaHeroModule,
     BulmaButtonModule,
     BulmaContainerModule,
+    BulmaFooterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

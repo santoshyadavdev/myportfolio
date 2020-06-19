@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { MainNavRoutingModule } from './main-nav-routing.module';
 import { MainNavComponent } from './main-nav.component';
-import { BulmaNavbarModule, BulmaFooterModule, BulmaContainerModule } from 'ngx2-bulma';
+import { BulmaNavbarModule, BulmaFooterModule, BulmaContainerModule, BulmaHeroModule, BulmaButtonModule } from 'ngx2-bulma';
 
 @NgModule({
   declarations: [MainNavComponent],
@@ -12,7 +12,9 @@ import { BulmaNavbarModule, BulmaFooterModule, BulmaContainerModule } from 'ngx2
     MainNavRoutingModule,
     BulmaNavbarModule,
     BulmaFooterModule,
-    BulmaContainerModule
+    BulmaContainerModule,
+    BulmaHeroModule,
+    BulmaButtonModule,
   ],
   exports: [MainNavComponent]
 })

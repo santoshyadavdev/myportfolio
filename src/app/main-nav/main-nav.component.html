@@ -19,12 +19,10 @@
   </bu-nav-brand>
   <div id="ngxBulmaNavbar" class="navbar-menu" #navMenuBasic>
     <bu-navbar-start>
-      <a buNavItem [routerLink]="['home']" routerLinkActive="router-link-active">Home</a>
       <a buNavItem [routerLink]="['blogs']" routerLinkActive="router-link-active">Blogs</a>
       <a buNavItem [routerLink]="['events']" routerLinkActive="router-link-active">Events</a>
     </bu-navbar-start>
     <bu-navbar-end>
-      <a buNavItem [routerLink]="['/core-team']" routerLinkActive="router-link-active">Core Team</a>
       <a
         class="social-icon"
         buNavItem
@@ -44,3 +42,4 @@
     </bu-navbar-end>
   </div>
 </bu-nav>
+<router-outlet></router-outlet>

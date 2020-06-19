@@ -3,13 +3,17 @@ import { CommonModule } from '@angular/common';
 
 import { EventsRoutingModule } from './events-routing.module';
 import { EventsComponent } from './events.component';
+import { BulmaPanelModule, BulmaHeroModule, BulmaContainerModule, BulmaCardModule } from 'ngx2-bulma';
 
 
 @NgModule({
   declarations: [EventsComponent],
   imports: [
     CommonModule,
-    EventsRoutingModule
+    EventsRoutingModule,
+    BulmaHeroModule,
+    BulmaContainerModule,
+    BulmaCardModule,
   ]
 })
 export class EventsModule { }
