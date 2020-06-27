@@ -1,0 +1,18 @@
+[
+  {
+    "bannerurl": "../../assets/YouTubeStr.png",
+    "episode": "mono-repos for frontend",
+    "guest": "@LayZeeDK",
+    "description": "In the first episode, we will have our guest Lars Gyrup Brink Nielsen talking about mono-repo in the frontend, we will discuss the advantages of mono-repo, different solution and how Nx is different.",
+    "datetime": "10:30 PM - 10 Jul 2020",
+    "streamurl": "https://youtu.be/gybfda4UsI4"
+  },
+  {
+    "bannerurl": "../../assets/YouTubeStr.png",
+    "episode": "Blazor- UI frameowork for C#",
+    "guest": "@ankitsharma_007",
+    "description": "In the secod episode, we will have our guest Ankit Sharma talking about Blazor, The new UI framework for C#. We will discuss how its dfifferent from asp.net and MVC and other UI frameworks.",
+    "datetime": "10:00 PM - 24 Jul 2020",
+    "streamurl": "https://youtu.be/gybfda4UsI4"
+  }
+]
