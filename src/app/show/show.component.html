@@ -1,7 +1,7 @@
-<div class="tile is-ancestor">
+<div class="columns is-mobile">
   <ng-container *ngIf="showData$ | async as shows">
     <ng-container *ngFor="let data of shows">
-      <div class="tile">
+      <div class="column is-4">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">

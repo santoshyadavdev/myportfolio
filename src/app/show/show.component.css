@@ -1,3 +1,8 @@
-.tile {
+.columns {
   margin: 10px;
+  flex-wrap: wrap;
+}
+
+.columns.is-mobile > .column.is-4 {
+  flex-grow: 1;
 }
