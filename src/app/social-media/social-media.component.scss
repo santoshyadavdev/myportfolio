@@ -60,15 +60,16 @@
   justify-content: center;
   flex-wrap: wrap;
   a {
-    border-radius: 30px;
+    border-radius: 50px;
     color: #fff;
     display: inline-block;
-    height: 93px;
-    line-height: 36px;
-    width: 108px;
+    height: 100px;
+    line-height: 44px;
+    width: 100px;
     font-size: 18px;
     text-align: center;
     margin: 10px;
+    padding-top: 10px;
   }
   .linkedin-icon {
     background-color: #0976b4;
@@ -90,15 +91,4 @@
   }
 }
 
-.fab {
-  background-color: #333;
-  border-radius: 30px;
-  color: #fff;
-  display: inline-block;
-  height: 30px;
-  line-height: 30px;
-  margin: auto 3px;
-  width: 30px;
-  font-size: 15px;
-  text-align: center;
-}
+
