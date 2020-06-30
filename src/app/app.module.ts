@@ -28,6 +28,7 @@ import { SocialMediaComponent } from './social-media/social-media.component';
     BulmaContainerModule,
     BulmaFooterModule,
     BulmaBoxModule,
+    BulmaButtonModule,
     HttpClientModule
   ],
   providers: [],

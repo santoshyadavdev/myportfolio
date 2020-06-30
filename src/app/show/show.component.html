@@ -1,7 +1,7 @@
 <div class="columns is-mobile">
   <ng-container *ngIf="showData$ | async as shows">
     <ng-container *ngFor="let data of shows">
-      <div class="column is-4">
+      <div class="column is-3">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
@@ -25,9 +25,9 @@
               <div>
                 {{data.description}}
               </div>
-              <a [href]="data.streamurl">Live Stream</a>
+              <a buButton theme="link"  [href]="data.streamurl" target="_blank">Live Stream</a>
               <br>
-              <time datetime="2016-1-1">{{data.datetime}}</time>
+              Time: <b>{{data.datetime}}</b>
             </div>
           </div>
         </div>
