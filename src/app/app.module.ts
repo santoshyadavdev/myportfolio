@@ -7,14 +7,16 @@ import { AppComponent } from './app.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { MainNavModule } from './main-nav/main-nav.module';
 import { HomeComponent } from './home/home.component';
-import { BulmaHeroModule, BulmaButtonModule, BulmaContainerModule, BulmaFooterModule } from 'ngx2-bulma';
+import { BulmaHeroModule, BulmaButtonModule, BulmaContainerModule, BulmaFooterModule, BulmaBoxModule } from 'ngx2-bulma';
 import { FooterComponent } from './footer/footer.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,7 @@ import { FooterComponent } from './footer/footer.component';
     BulmaButtonModule,
     BulmaContainerModule,
     BulmaFooterModule,
+    BulmaBoxModule,
     HttpClientModule
   ],
   providers: [],
