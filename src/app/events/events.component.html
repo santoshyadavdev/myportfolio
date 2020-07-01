@@ -1,3 +1,8 @@
+<bu-hero color="info" gradient="true">
+  <div buContainer class="has-text-centered">
+    <h1 class="title">Meetups and Conferences</h1>
+  </div>
+</bu-hero>
 <div class="columns is-mobile">
   <ng-container *ngIf="talks$ | async as talks">
     <ng-container *ngFor="let data of talks">

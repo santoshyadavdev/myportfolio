@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { ShowRoutingModule } from './show-routing.module';
 import { ShowComponent } from './show.component';
-import { BulmaButtonModule } from 'ngx2-bulma';
+import { BulmaButtonModule, BulmaHeroModule } from 'ngx2-bulma';
 
 
 @NgModule({
@@ -11,7 +11,8 @@ import { BulmaButtonModule } from 'ngx2-bulma';
   imports: [
     CommonModule,
     ShowRoutingModule,
-    BulmaButtonModule
+    BulmaButtonModule,
+    BulmaHeroModule
   ]
 })
 export class ShowModule { }

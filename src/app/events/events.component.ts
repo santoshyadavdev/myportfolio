@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, HostBinding } from '@angular/core';
 import { TalksService } from './talks.service';
 import { Observable } from 'rxjs';
 import { Talks } from './talks';
@@ -6,9 +6,12 @@ import { Talks } from './talks';
 @Component({
   selector: 'app-events',
   templateUrl: './events.component.html',
-  styleUrls: ['./events.component.scss']
+  styleUrls: ['./events.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class EventsComponent implements OnInit {
+
+  @HostBinding('class') class = 'app-events';
 
   talks$: Observable<Talks[]>;
 

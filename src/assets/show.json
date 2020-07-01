@@ -4,7 +4,7 @@
     "episode": "mono-repos",
     "guest": "@LayZeeDK",
     "description": "In the first episode, we will have our guest Lars Gyrup Brink Nielsen talking about mono-repo in the frontend, we will discuss the advantages of mono-repo, different solution and how Nx is different.",
-    "datetime": "10:30 PM - 10 Jul 2020",
+    "datetime": "10:30 PM IST - 10 Jul 2020",
     "streamurl": "https://youtu.be/gybfda4UsI4"
   },
   {
@@ -12,31 +12,39 @@
     "episode": "Blazor",
     "guest": "@ankitsharma_007",
     "description": "In the second episode, we will have our guest Ankit Sharma talking about Blazor, The new UI framework for C#. We will discuss how its different from asp.net and MVC and other UI frameworks.",
-    "datetime": "10:00 PM - 24 Jul 2020",
-    "streamurl": "https://youtu.be/UGc7sbakSvI"
+    "datetime": "10:00 PM IST - 24 Jul 2020",
+    "streamurl": "https://youtu.be/ccez8vX1Lvg"
   },
   {
-    "bannerurl": "../../assets/Episode2.png",
+    "bannerurl": "../../assets/Episode3.png",
     "episode": "Freelancing",
-    "guest": "@ankitsharma_007",
+    "guest": "@MartinaKraus11",
     "description": "In the third episode, we will have our guest Martina Kraus talking about Freelancing. We will discuss how to start freelancing and will address common questions like how to get more work.",
-    "datetime": "07:00 PM - 07 Aug 2020",
-    "streamurl": "https://youtu.be/gybfda4UsI4"
+    "datetime": "07:00 PM IST - 07 Aug 2020",
+    "streamurl": "https://youtu.be/7rugTUTjx9I"
   },
   {
-    "bannerurl": "../../assets/Episode2.png",
-    "episode": "Siddharth Ajmera",
+    "bannerurl": "../../assets/Episode4.png",
+    "episode": "Angular Ivy",
     "guest": "@SiddAjmera",
     "description": "In the fourth episode, we will have our guest Siddharth Ajmera talking about Ivy. The new engine for Angular. We will discuss how its dfifferent from previous engines and advantages of Ivy.",
-    "datetime": "06:00 PM - 21 Aug 2020",
-    "streamurl": "https://youtu.be/gybfda4UsI4"
+    "datetime": "06:00 PM IST - 21 Aug 2020",
+    "streamurl": "https://youtu.be/0tPCKbC5QhE"
   },
   {
-    "bannerurl": "../../assets/Episode2.png",
-    "episode": "Blazor",
-    "guest": "@ankitsharma_007",
-    "description": "In the fifth episode, we will have our guest Ankit Sharma talking about Blazor, The new UI framework for C#. We will discuss how its dfifferent from asp.net and MVC and other UI frameworks.",
-    "datetime": "10:00 PM - 24 Jul 2020",
-    "streamurl": "https://youtu.be/gybfda4UsI4"
+    "bannerurl": "../../assets/Episode5.png",
+    "episode": "Angular Universal",
+    "guest": "@ankit_ngdevelop",
+    "description": "In this episode, we will have our guest Ankit Prajapati talking about SSR and Pre-rendering. We will discuss how it works and how they can help in performance improvement.",
+    "datetime": "10:00 PM IST - 11 Sep 2020",
+    "streamurl": "https://youtu.be/cVmrJJkwA9Q"
+  },
+  {
+    "bannerurl": "../../assets/Episode6.png",
+    "episode": "Angular Best Practices",
+    "guest": "@Armandotrue",
+    "description": "In this episode, we will have our guest Armen Vardanyan talking about best practices. We will discuss how it can impact the performance of your application and how to follow good patterns.",
+    "datetime": "10:00 PM IST - 25 Sep 2020",
+    "streamurl": "https://youtu.be/UxDb0exmp5I"
   }
 ]

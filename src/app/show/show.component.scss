@@ -1,4 +1,11 @@
-.columns {
-  margin: 10px;
-  flex-wrap: wrap;
+.app-show {
+  .columns {
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+
+  .has-text-centered {
+    margin: 30px 0 30px 0px;
+  }
+
 }

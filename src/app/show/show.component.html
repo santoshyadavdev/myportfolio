@@ -1,7 +1,12 @@
+<bu-hero color="info" gradient="true">
+  <div buContainer class="has-text-centered">
+    <h1 class="title">Tech Talks With Santosh</h1>
+  </div>
+</bu-hero>
 <div class="columns is-mobile">
   <ng-container *ngIf="showData$ | async as shows">
     <ng-container *ngFor="let data of shows">
-      <div class="column is-3">
+      <div class="column is-4">
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
@@ -10,11 +15,6 @@
           </div>
           <div class="card-content">
             <div class="media">
-              <div class="media-left">
-                <figure class="image is-48x48">
-                  <img [src]="data.bannerurl" [alt]="data.episode">
-                </figure>
-              </div>
               <div class="media-content">
                 <p class="title is-4">{{data.episode}}</p>
                 <p class="subtitle is-6">{{data.guest}}</p>
