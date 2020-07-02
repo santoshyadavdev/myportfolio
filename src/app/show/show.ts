@@ -5,4 +5,6 @@ export interface Show {
   description: string;
   datetime: string;
   streamurl: string;
+  question: string;
+  active: boolean;
 }

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Angular 10 Training",
+    "description": "Angular 10 live Interactive 𝐡𝐚𝐧𝐝𝐬-𝐨𝐧 project development training by Santosh Yadav Google GDE. Starting on 4th July at 09:00 PM-11:00 PM IST. Learn Angular from scratch to advanced by building projects & Prepare for job Interviews.",
+    "meetupUrl": "",
+    "datetime": "04 Jul 2020",
+    "streamurl": "",
+    "slides": "",
+    "banner": "../../assets/dotnettricks.jpg",
+    "paid": true,
+    "online": true,
+    "organizer": "DotNetTricks",
+    "contact": "+919999123501"
+  },
+  {
+    "title": "Getting Started with Tyescript - Free Workshop",
+    "description": "3 hours interactive online training on typescript, you will learn data types, functions, clases, interfaces, modules and how you can utilize typescript config file.",
+    "meetupUrl": "https://www.meetup.com/Coimbatore-frontend-Group/events/271669991/",
+    "datetime": "10:00 AM IST - 08 Aug 2020",
+    "streamurl": "",
+    "slides": "",
+    "banner": "../../assets/typescript.jpg",
+    "paid": false,
+    "online": true,
+    "organizer": "Coimbatore Frontend Group",
+    "contact": ""
+  }
+]
