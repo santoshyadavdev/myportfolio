@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'events', loadChildren: () => import('./events/events.module').then(m => m.EventsModule) },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'blogs', loadChildren: () => import('./blogs/blogs.module').then(m => m.BlogsModule) },
-  { path: 'show', loadChildren: () => import('./show/show.module').then(m => m.ShowModule) }
+  { path: 'show', loadChildren: () => import('./containers/show/show.conatiner.module').then(m => m.ShowContainerModule) }
 ];
 
 @NgModule({

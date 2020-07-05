@@ -3,15 +3,8 @@
     <a buNavItem [routerLink]="['/']">
       <img class="navbar-logo" alt="ngx2-bulma" src="../../assets/badge.png" />
     </a>
-    <a
-      (click)="toggleBasicNavbar()"
-      role="button"
-      #navBurgerBasic
-      class="navbar-burger burger"
-      aria-label="menu"
-      aria-expanded="false"
-      data-target="ngxBulmaNavbar"
-    >
+    <a (click)="toggleBasicNavbar()" role="button" #navBurgerBasic class="navbar-burger burger" aria-label="menu"
+      aria-expanded="false" data-target="ngxBulmaNavbar">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -23,23 +16,8 @@
       <a buNavItem [routerLink]="['events']" routerLinkActive="router-link-active">Talks and workshop</a>
       <a buNavItem [routerLink]="['show']" routerLinkActive="router-link-active">Tech Talks With Santosh</a>
     </bu-navbar-start>
-    <bu-navbar-end>
-      <a
-        class="social-icon"
-        buNavItem
-        href="https://github.com/santoshyadav198613"
-        routerLinkActive="router-link-active"
-        target="_blank"
-        ><i class="fab fa-github"></i
-      ></a>
-      <a
-        class="social-icon"
-        buNavItem
-        href="https://twitter.com/SantoshYadavDev"
-        routerLinkActive="router-link-active"
-        target="_blank"
-        ><i class="fab fa-twitter"></i
-      ></a>
+    <bu-navbar-end class="social-icons">
+      <app-social-media></app-social-media>
     </bu-navbar-end>
   </div>
 </bu-nav>

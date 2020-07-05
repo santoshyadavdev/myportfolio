@@ -3,8 +3,12 @@ export interface Show {
   episode: string;
   guest: string;
   description: string;
-  datetime: string;
+  datetime: Date;
   streamurl: string;
   question: string;
   active: boolean;
+  twitter: string;
+  linkedIn: string;
+  github: string;
+  blog: string;
 }

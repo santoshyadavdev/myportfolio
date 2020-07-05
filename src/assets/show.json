@@ -2,61 +2,85 @@
   {
     "bannerurl": "../../assets/YouTubeStr.png",
     "episode": "mono-repos",
-    "guest": "@LayZeeDK",
+    "guest": "Lars Gyrup Brink Nielsen",
     "description": "In the first episode, we will have our guest Lars Gyrup Brink Nielsen talking about mono-repo in the frontend, we will discuss the advantages of mono-repo, different solution and how Nx is different.",
-    "datetime": "10:30 PM IST - 10 Jul 2020",
+    "datetime": "10-Jul-2020 22:30:00",
     "streamurl": "https://youtu.be/gybfda4UsI4",
     "question": "https://docs.google.com/forms/d/17pH8EvltFguJYSqylzX95T5ZmuBWNjoXKEjlxYAqJAc/edit?usp=sharing",
-    "active": true
+    "active": true,
+    "twitter": "https://twitter.com/LayZeeDK",
+    "linkedIn": "https://www.linkedin.com/in/larsgbn/",
+    "github": "https://github.com/LayZeeDK",
+    "blog": "https://indepth.dev/author/layzee/"
   },
   {
     "bannerurl": "../../assets/Episode2.png",
     "episode": "Blazor",
-    "guest": "@ankitsharma_007",
+    "guest": "Ankit Sharma",
     "description": "In the second episode, we will have our guest Ankit Sharma talking about Blazor, The new UI framework for C#. We will discuss how its different from asp.net and MVC and other UI frameworks.",
-    "datetime": "10:00 PM IST - 24 Jul 2020",
+    "datetime": "24-Jul-2020 22:00:00",
     "streamurl": "https://youtu.be/ccez8vX1Lvg",
     "question": "https://docs.google.com/forms/d/1cND3nG03EKo-NbT23gkIoB39GzB2i0tMWrTpFEtQ6rs/edit?usp=sharing",
-    "active": true
+    "active": true,
+    "twitter": "https://twitter.com/ankitsharma_007",
+    "linkedIn": "https://www.linkedin.com/in/ankitsharma-007/",
+    "github": "https://github.com/AnkitSharma-007",
+    "blog": "https://ankitsharmablogs.com/"
   },
   {
     "bannerurl": "../../assets/Episode3.png",
     "episode": "Freelancing",
-    "guest": "@MartinaKraus11",
+    "guest": "Martina Kraus",
     "description": "In the third episode, we will have our guest Martina Kraus talking about Freelancing. We will discuss how to start freelancing and will address common questions like how to get more work.",
-    "datetime": "07:00 PM IST - 07 Aug 2020",
+    "datetime": "07-Aug-2020 19:00:00",
     "streamurl": "https://youtu.be/7rugTUTjx9I",
     "question": "https://docs.google.com/forms/d/1MUYDCIXk2HSzuDvsr5Ixz4H6Y60Ufn5YukA8ernjkCQ/edit?usp=sharing",
-    "active": true
+    "active": true,
+    "twitter": "https://twitter.com/MartinaKraus11",
+    "linkedIn": "https://www.linkedin.com/in/martina-kraus-398493108/",
+    "github": "https://github.com/martinakraus",
+    "blog": "https://martinakraus.github.io/"
   },
   {
     "bannerurl": "../../assets/Episode4.png",
     "episode": "Angular Ivy",
-    "guest": "@SiddAjmera",
+    "guest": "Siddharth Ajmera",
     "description": "In the fourth episode, we will have our guest Siddharth Ajmera talking about Ivy. The new engine for Angular. We will discuss how its different from previous engines and advantages of Ivy.",
-    "datetime": "06:00 PM IST - 21 Aug 2020",
+    "datetime": "21-Aug-2020 18:00:00",
     "streamurl": "https://youtu.be/0tPCKbC5QhE",
     "question": "https://docs.google.com/forms/d/1MUYDCIXk2HSzuDvsr5Ixz4H6Y60Ufn5YukA8ernjkCQ/edit?usp=sharing",
-    "active": true
+    "active": true,
+    "twitter": "https://twitter.com/SiddAjmera",
+    "linkedIn": "https://www.linkedin.com/in/SiddAjmera/",
+    "github": "https://github.com/SiddAjmera",
+    "blog": "https://siddajmera.dev/"
   },
   {
     "bannerurl": "../../assets/Episode5.png",
     "episode": "Angular Universal",
-    "guest": "@ankit_ngdevelop",
+    "guest": "Ankit Prajapati",
     "description": "In this episode, we will have our guest Ankit Prajapati talking about SSR and Pre-rendering. We will discuss how it works and how they can help in performance improvement and SEO.",
-    "datetime": "10:00 PM IST - 11 Sep 2020",
+    "datetime": "11-Sep-2020 22:00:00",
     "streamurl": "https://youtu.be/cVmrJJkwA9Q",
     "question": "https://docs.google.com/forms/d/17pH8EvltFguJYSqylzX95T5ZmuBWNjoXKEjlxYAqJAc/edit?usp=sharing",
-    "active": false
+    "active": false,
+    "twitter": "https://twitter.com/ankit_ngdevelop",
+    "linkedIn": "https://www.linkedin.com/in/ankit-prajapati26/",
+    "github": "https://github.com/ngdevelop-tech",
+    "blog": "https://www.ngdevelop.tech/"
   },
   {
     "bannerurl": "../../assets/Episode6.png",
     "episode": "Angular Best Practices",
     "guest": "@Armandotrue",
     "description": "In this episode, we will have our guest Armen Vardanyan talking about best practices. We will discuss how it can impact the performance of your application and how to follow good patterns.",
-    "datetime": "10:00 PM IST - 25 Sep 2020",
+    "datetime": "25-Sep-2020 22:00:00",
     "streamurl": "https://youtu.be/UxDb0exmp5I",
     "question": "https://docs.google.com/forms/d/17pH8EvltFguJYSqylzX95T5ZmuBWNjoXKEjlxYAqJAc/edit?usp=sharing",
-    "active": false
+    "active": false,
+    "twitter": "https://twitter.com/Armandotrue",
+    "linkedIn": "https://www.linkedin.com/in/armen-vardanyan-am/",
+    "github": "https://github.com/Armenvardanyan95",
+    "blog": "https://indepth.dev/author/armen/"
   }
 ]

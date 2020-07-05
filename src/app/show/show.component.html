@@ -1,11 +1,6 @@
-<bu-hero color="info" gradient="true">
-  <div buContainer class="has-text-centered">
-    <h1 class="title">Tech Talks With Santosh</h1>
-  </div>
-</bu-hero>
 <div class="columns">
-  <ng-container *ngIf="showData$ | async as shows">
-    <ng-container *ngFor="let data of shows">
+  <ng-container *ngIf="showData">
+    <ng-container *ngFor="let data of showData">
       <div class="column is-4">
         <div class="card">
           <div class="card-image">
@@ -16,8 +11,8 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">{{data.episode}}</p>
-                <p class="subtitle is-6">{{data.guest}}</p>
+                <p class="title is-4">Topic: {{data.episode}}</p>
+                <p class="subtitle is-6">Guest: {{data.guest}}</p>
               </div>
             </div>
 
@@ -25,10 +20,21 @@
               <div>
                 {{data.description}}
               </div>
-              <a buButton theme="link"  [href]="data.streamurl" target="_blank">Live Stream</a>
-              <a *ngIf="data.active" buButton theme="link"  [href]="data.question" target="_blank">Ask Question</a>
-              <br>
-              Time: <b>{{data.datetime}}</b>
+              <div>
+                Time: <b>{{data.datetime | date: 'dd MMM yyyy hh:mm:ss a'}} IST</b>
+              </div>
+              <div class="social-icons">
+                <a class="linkedin-icon" [href]="data.linkedIn"
+                  routerLinkActive="router-link-active" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="twitter-icon" [href]="data.twitter"
+                  routerLinkActive="router-link-active" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a class="github-icon" [href]="data.github"
+                  routerLinkActive="router-link-active" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="blog-icon" [href]="data.blog" routerLinkActive="router-link-active"
+                  target="_blank"><i class="fas fa-rss"></i></a>
+              </div>
+              <a buButton theme="link" [href]="data.streamurl" target="_blank">Live Stream</a>
+              <a *ngIf="data.active" buButton theme="link" [href]="data.question" target="_blank">Ask Question</a>
             </div>
           </div>
         </div>
@@ -36,5 +42,3 @@
     </ng-container>
   </ng-container>
 </div>
-
-

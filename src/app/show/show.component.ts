@@ -1,7 +1,6 @@
-import { Component, OnInit, ViewEncapsulation, HostBinding } from '@angular/core';
-import { ShowService } from './show.service';
-import { Observable } from 'rxjs';
-import { Show } from './show';
+import { Component, ViewEncapsulation, HostBinding, Input } from '@angular/core';
+import { Show } from '../containers/services/show';
+
 
 @Component({
   selector: 'app-show',
@@ -9,16 +8,10 @@ import { Show } from './show';
   encapsulation: ViewEncapsulation.None,
   styleUrls: ['./show.component.scss']
 })
-export class ShowComponent implements OnInit {
+export class ShowComponent {
 
-  @HostBinding('class') class= 'app-show';
+  @HostBinding('class') class = 'app-show';
 
-  showData$: Observable<Show[]>;
-
-  constructor(private showService: ShowService) { }
-
-  ngOnInit(): void {
-    this.showData$ = this.showService.getTalks();
-  }
+  @Input() showData: Show[];
 
 }

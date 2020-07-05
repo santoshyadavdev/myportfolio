@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ShowComponent } from './show.component';
+import { ShowContainer } from './show.container';
 
-const routes: Routes = [{ path: '', component: ShowComponent }];
+const routes: Routes = [{ path: '', component: ShowContainer }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

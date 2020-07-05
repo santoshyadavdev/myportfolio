@@ -1,5 +1,16 @@
-.profile-logo {
-  width: 180px;
-  height: 180px;
-}
+.app-home {
+  .profile-logo {
+    width: 180px;
+    height: 180px;
+  }
 
+  .title {
+    font-weight: 300;
+  }
+
+  .subtitle {
+    max-width: 40rem;
+    margin: auto;
+    font-weight: 300;
+  }
+}
