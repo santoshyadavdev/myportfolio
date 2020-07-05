@@ -3,32 +3,3 @@
   height: 180px;
 }
 
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  a {
-    border-radius: 30px;
-    color: #fff;
-    display: inline-block;
-    height: 36px;
-    line-height: 36px;
-    width: 36px;
-    font-size: 18px;
-    text-align: center;
-    margin: 10px;
-  }
-  .linkedin-icon {
-    background-color: #0976b4;
-  }
-  .twitter-icon {
-    background-color: #46c0fb;
-  }
-  .github-icon {
-    background-color: #333;
-  }
-  .blog-icon {
-    background-color: #666666;
-  }
-}
