@@ -1,0 +1,20 @@
+[
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/06/Error-copy-2-1.png",
+    "title": "Improved Error Logging by the Angular AOT Compiler",
+    "blogUrl": "https://indepth.dev/improved-error-logging-by-the-angular-aot-compiler/",
+    "description": "For the years, one of the biggest pain in Angular was to debug, because of the error message, there was no clear stack trace where the actual error is. Ivy improved it a lot, because of the locality principle, and gives us the line number too."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/05/14477.jpg",
+    "title": "Reduce your bundle size through this component styling technique",
+    "blogUrl": "https://indepth.dev/are-you-using-scss-properly/",
+    "description": "Believe me struggle to reduce the bundle size is something we all struggle with, it is the same with us, and I am crazy about optimizing things, and want my bundle to be as small as possible once my application is stable and in running state."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/03/sharing.jpg",
+    "title": "Stop Using Shared Material Module",
+    "blogUrl": "https://indepth.dev/stop-using-shared-material-module/",
+    "description": "This article describes an experiment that shows why using the SharedMaterial module in all Angular modules is a bad idea that leads to an increased bundle size."
+  }
+]

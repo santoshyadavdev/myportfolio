@@ -1,7 +1,33 @@
-<bu-hero color="info">
-  <div buContainer class="has-text-centered">
-    <h1 class="title">
-      Blogs
-    </h1>
-  </div>
-</bu-hero>
+<div class="columns">
+  <ng-container *ngIf="blogs">
+    <ng-container *ngFor="let blog of blogs">
+      <div class="column is-4">
+        <div class="card bm--card-equal-height">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img [src]="blog.banner" [alt]="blog.description">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">{{blog.title}}</p>
+              </div>
+            </div>
+
+            <div class="content">
+              <div>
+                {{blog.description}}
+              </div>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div>
+              <a buButton theme="link" [href]="blog.blogUrl" target="_blank">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </ng-container>
+</div>

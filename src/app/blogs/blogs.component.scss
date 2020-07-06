@@ -1,0 +1,19 @@
+.columns {
+  margin: 10px;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.bm--card-equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.bm--card-equal-height .card-footer {
+  margin-top: auto;
+}
+
+.button {
+  margin: 8px 8px 8px 8px;
+}

@@ -15,6 +15,8 @@ import { ShowComponent } from './show/show.component';
 import { ShowModule } from './show/show.module';
 import { RecenteventsComponent } from './containers/recentevents/recentevents.component';
 import { SocialMediaModule } from './social-media/social-media.module';
+import { BlogsModule } from './blogs/blogs.module';
+import { RecentblogsComponent } from './containers/recentblogs/recentblogs.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,7 @@ import { SocialMediaModule } from './social-media/social-media.module';
     FooterComponent,
     EventContainer,
     RecenteventsComponent,
+    RecentblogsComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { SocialMediaModule } from './social-media/social-media.module';
     BulmaButtonModule,
     BulmaCardModule,
     HttpClientModule,
-    SocialMediaModule
+    SocialMediaModule,
+    BlogsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
