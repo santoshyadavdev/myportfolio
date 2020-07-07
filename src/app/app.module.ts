@@ -17,6 +17,7 @@ import { RecenteventsComponent } from './containers/recentevents/recentevents.co
 import { SocialMediaModule } from './social-media/social-media.module';
 import { BlogsModule } from './blogs/blogs.module';
 import { RecentblogsComponent } from './containers/recentblogs/recentblogs.component';
+import { ScrollerComponent } from './scroller/scroller.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { RecentblogsComponent } from './containers/recentblogs/recentblogs.compo
     EventContainer,
     RecenteventsComponent,
     RecentblogsComponent,
+    ScrollerComponent
   ],
   imports: [
     BrowserModule,
