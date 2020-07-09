@@ -21,11 +21,12 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/_redirects"
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/bulma/css/bulma.css"
+              "./node_modules/bulma/css/bulma.min.css",
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -90,8 +91,8 @@
               "src/_redirects"
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/bulma/css/bulma.css"
+              "./node_modules/bulma/css/bulma.min.css",
+              "src/styles.scss"
             ],
             "scripts": []
           }

@@ -46,3 +46,4 @@ testem.log
 Thumbs.db
 scully.log
 src/assets/scully-routes.json
+package-lock.json
