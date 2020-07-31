@@ -1,19 +1,6 @@
 [
   {
-    "title": "Angular 10 Training",
-    "description": "Angular 10 live Interactive 𝐡𝐚𝐧𝐝𝐬-𝐨𝐧 project development training by Santosh Yadav Google GDE. Starting on 4th July at 09:00 PM-11:00 PM IST. Learn Angular from scratch to advanced by building projects & Prepare for job Interviews.",
-    "meetupUrl": "",
-    "datetime": "04 Jul 2020",
-    "streamurl": "",
-    "slides": "",
-    "banner": "../../assets/dotnettricks.jpg",
-    "paid": true,
-    "online": true,
-    "organizer": "DotNetTricks",
-    "contact": "+919999123501"
-  },
-  {
-    "title": "Getting Started with Typescript - Free Workshop",
+    "title": "Getting Started with Typescript",
     "description": "3 hours interactive online training on typescript, you will learn data types, functions, clases, interfaces, modules and how you can utilize typescript config file.",
     "meetupUrl": "https://www.meetup.com/Coimbatore-frontend-Group/events/271669991/",
     "datetime": "10:00 AM IST - 08 Aug 2020",
@@ -23,6 +10,32 @@
     "paid": false,
     "online": true,
     "organizer": "Coimbatore Frontend Group",
+    "contact": ""
+  },
+  {
+    "title": "Let's Optimize an Angular App",
+    "description": "In this talk, I will share how I optimized an enterprise application in my current organization, and tools which helped me to achieve this.",
+    "meetupUrl": "https://www.2020twenty.net/angular/",
+    "datetime": "06:45 PM IST - 24 Jul 2020",
+    "streamurl": "https://www.youtube.com/watch?v=pb5jAOB2uVc&t=7587s",
+    "slides": "",
+    "banner": "../../assets/csharpconf.png",
+    "paid": false,
+    "online": true,
+    "organizer": "C# Corner",
+    "contact": ""
+  },
+  {
+    "title": "Contributing to Angular",
+    "description": "Do you want to start contributing to Angular, but wondering where and how to start, how I started my contribution. Join me to learn about it in this online meetup.",
+    "meetupUrl": "https://www.meetup.com/JavaScriptMeetup/events/271766320",
+    "datetime": "10:00 AM IST - 01 Aug 2020",
+    "streamurl": "https://www.airmeet.com/e/367a11f0-c014-11ea-bfab-bfc4d60c37bb",
+    "slides": "",
+    "banner": "../../assets/angularcontribution.png",
+    "paid": false,
+    "online": true,
+    "organizer": "JavaScript Meetup",
     "contact": ""
   }
 ]
