@@ -1,5 +1,11 @@
 [
   {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/07/Angular-10---Towards-the-Better-future-for-Angular.png",
+    "title": "Angular 10 - Towards the Better future for Angular",
+    "blogUrl": "https://indepth.dev/angular-10-towards-the-better-future-for-angular/",
+    "description": "Angular 10 is released, many developers sent me messages asking we cannot see any features, yes there was no big feature, but sometimes you need to take some time to prepare for a better future, and this is what Angular 10 release was all about."
+  },
+  {
     "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/06/Error-copy-2-1.png",
     "title": "Improved Error Logging by the Angular AOT Compiler",
     "blogUrl": "https://indepth.dev/improved-error-logging-by-the-angular-aot-compiler/",
@@ -12,9 +18,63 @@
     "description": "Believe me struggle to reduce the bundle size is something we all struggle with, it is the same with us, and I am crazy about optimizing things, and want my bundle to be as small as possible once my application is stable and in running state."
   },
   {
+    "banner": "https://www.syncfusion.com/blogs/wp-content/uploads/2020/05/Complete-Guide-to-Running-a-FulL-Stack-Angular-Application-in-a-Monorepo.jpg",
+    "title": "A Complete Guide to Running a Full-Stack Angular Application in a Monorepo",
+    "blogUrl": "https://www.syncfusion.com/blogs/post/a-complete-guide-to-running-a-full-stack-angular-application-in-a-monorepo.aspx",
+    "description": "In the current software development era, multiple teams work on numerous projects. We need to store the codebase in some version control system like GitHub or TFS. Many organizations add different projects to a single repository, which is known as a monorepo. Many big organizations like Google, Microsoft, and Uber use a monorepo in their application development."
+  },
+  {
     "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/03/sharing.jpg",
     "title": "Stop Using Shared Material Module",
     "blogUrl": "https://indepth.dev/stop-using-shared-material-module/",
     "description": "This article describes an experiment that shows why using the SharedMaterial module in all Angular modules is a bad idea that leads to an increased bundle size."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/02/close-up-abstract-image-wet-rough-natural-brown-uneven-different-sizes-forms-stones-balanced-like-pyramid-pile-landmark-shallow-water-blurred-blue-green-misty_127089-1331.jpg",
+    "title": "A detailed look at Angular's 'root' and 'any' provider scopes",
+    "blogUrl": "https://indepth.dev/angulars-root-and-any-provider-scopes/",
+    "description": "Angular 9 Ivy provides us with a few more options when defining Provider Scope. In this article we will see why 'root' is not sufficient and how the new value 'any' can help."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/02/1.png",
+    "title": "Scully, the First Static Site Generator for Angular",
+    "blogUrl": "https://indepth.dev/scully-the-first-static-site-generator-for-angular/",
+    "description": "A Static Site Generator is the best way to create blog posts or portfolios. We can quickly set up a blog and deploy it to any cloud provider like Netlify. An important question is what does SSG do?"
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2019/11/istockphoto-871196052-612x612.jpg",
+    "title": "Exciting Times Ahead — Be Ready For Angular 9",
+    "blogUrl": "https://indepth.dev/exciting-times-ahead-be-ready-for-angular-9/",
+    "description": "The Angular 9 RC is out, what an exciting time to be Angular developer, no I am not saying this because of Angular 9 RC release. It's because Ivy is here, Ivy is now the default rendering engine in Angular."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/03/cli-1.png",
+    "title": "Angular Tools You Should be Aware Of",
+    "blogUrl": "https://indepth.dev/angular-tools-you-should-be-aware-of/",
+    "description": "As an Angular Developer, we often focus on using the overall framework. This isn’t wrong since Angular was designed to have a uniform method of building great applications. But let's see the Angular tools you should be aware of."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/02/4.png",
+    "title": "Overriding Angular Schematics",
+    "blogUrl": "https://indepth.dev/overriding-angular-schematics/",
+    "description": "Last week I was working on an Angular Library, and in all the components we wanted to have encapsulation set to None and changeDetection to OnPush. We also wanted to add all components and directives to exports. Let's see how we can achieve this without writing any code."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2019/11/angular.png",
+    "title": "What’s new After Angular 8",
+    "blogUrl": "https://indepth.dev/whats-new-after-angular-8/",
+    "description": "We got many new features with the release of Angular 8, Angular 9 will be released around November 2019. There are a lot of interesting things happening after Angular 8 was released in May, we have Ivy as default, ng deploy is officially support by CLI and many more."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2019/08/icon-192x192.png",
+    "title": "Angular CLI Builders",
+    "blogUrl": "https://indepth.dev/angular-cli-builders/",
+    "description": "Builders API is released with Angular 8, and it offers a functionality where you can override commands as ng build,ng test and ng lint . Not to be confused with Angular Schematics here, by using which you can add your own commands for ng generate commands or provide support for ng add."
+  },
+  {
+    "banner": "https://res.cloudinary.com/indepth-dev/image/fetch/w_1000,f_auto/https://admin.indepth.dev/content/images/2020/02/2-1.jpeg",
+    "title": "Brace yourself. Angular 8 is coming",
+    "blogUrl": "https://indepth.dev/brace-yourself-angular-8-is-coming/",
+    "description": "n this blog, let’s see what we should expect from the Angular 8 release. This post will cover some hot topics covered at ngConf and Google I/O 2019. So if you missed both events, do readon to have an idea what features your favorite framework is going to offer you. This blog is co-written with Roman Yavoriv."
   }
 ]

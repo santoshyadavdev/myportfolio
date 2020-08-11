@@ -37,5 +37,18 @@
     "online": true,
     "organizer": "JavaScript Meetup",
     "contact": ""
+  },
+  {
+    "title": "Let's Optimize an Angular App",
+    "description": "In this talk, I will share how I optimized an enterprise application in my current organization, and tools which helped me to achieve this.",
+    "meetupUrl": "https://twitter.com/ItsAllAboutWeb",
+    "datetime": "3:25 PM IST - 15 Aug 2020",
+    "streamurl": "https://www.youtube.com/watch?v=PvamLR8qrtU",
+    "slides": "",
+    "banner": "../../assets/event-santosh-banner.jpg",
+    "paid": false,
+    "online": true,
+    "organizer": "JavaScript Meetup",
+    "contact": ""
   }
 ]

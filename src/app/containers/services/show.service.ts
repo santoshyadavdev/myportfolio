@@ -7,7 +7,7 @@ import { Show } from './show';
 })
 export class ShowService {
 
-  dataUrl= './assets/show.json';
+  dataUrl = './assets/show.json';
 
   constructor(private http: HttpClient) { }
 

@@ -27,7 +27,7 @@ import { ScrollerComponent } from './scroller/scroller.component';
     EventContainer,
     RecenteventsComponent,
     RecentblogsComponent,
-    ScrollerComponent
+    ScrollerComponent,
   ],
   imports: [
     BrowserModule,

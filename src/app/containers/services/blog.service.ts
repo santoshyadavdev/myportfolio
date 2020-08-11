@@ -6,7 +6,7 @@ import { Blog } from './blog';
   providedIn: 'root'
 })
 export class BlogService {
-  dataUrl= './assets/blogs.json';
+  dataUrl = './assets/blogs.json';
 
   constructor(private http: HttpClient) { }
 
