@@ -1,6 +1,6 @@
 [
   {
-    "bannerurl": "../../assets/YouTubeStr.png",
+    "bannerurl": "../../assets/episode1.webp",
     "episode": "mono-repos",
     "guest": "Lars Gyrup Brink Nielsen",
     "description": "In the first episode, we will have our guest Lars Gyrup Brink Nielsen talking about mono-repo in the frontend, we will discuss the advantages of mono-repo, different solution and how Nx is different.",
@@ -42,13 +42,13 @@
     "blog": "https://martinakraus.github.io/"
   },
   {
-    "bannerurl": "../../assets/Episode4.png",
+    "bannerurl": "../../assets/Episode4.webp",
     "episode": "Angular Ivy",
     "guest": "Siddharth Ajmera",
     "description": "In the fourth episode, we will have our guest Siddharth Ajmera talking about Ivy. The new engine for Angular. We will discuss how its different from previous engines and advantages of Ivy.",
     "datetime": "21-Aug-2020 18:00:00",
     "streamurl": "https://youtu.be/0tPCKbC5QhE",
-    "question": "https://docs.google.com/forms/d/1MUYDCIXk2HSzuDvsr5Ixz4H6Y60Ufn5YukA8ernjkCQ/edit?usp=sharing",
+    "question": "https://docs.google.com/forms/d/189M76HJYwYWQbx2c-HUHT86rGhvk6V3WQJePrkXNtRY/edit",
     "active": true,
     "twitter": "https://twitter.com/SiddAjmera",
     "linkedIn": "https://www.linkedin.com/in/SiddAjmera/",
@@ -56,7 +56,7 @@
     "blog": "https://siddajmera.dev/"
   },
   {
-    "bannerurl": "../../assets/Episode5.png",
+    "bannerurl": "../../assets/Episode5.webp",
     "episode": "Angular Universal",
     "guest": "Ankit Prajapati",
     "description": "In this episode, we will have our guest Ankit Prajapati talking about SSR and Pre-rendering. We will discuss how it works and how they can help in performance improvement and SEO.",
@@ -70,7 +70,7 @@
     "blog": "https://www.ngdevelop.tech/"
   },
   {
-    "bannerurl": "../../assets/Episode6.png",
+    "bannerurl": "../../assets/Episode6.webp",
     "episode": "Angular Best Practices",
     "guest": "@Armandotrue",
     "description": "In this episode, we will have our guest Armen Vardanyan talking about best practices. We will discuss how it can impact the performance of your application and how to follow good patterns.",

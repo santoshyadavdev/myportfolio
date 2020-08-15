@@ -18,6 +18,8 @@ import { SocialMediaModule } from './social-media/social-media.module';
 import { BlogsModule } from './blogs/blogs.module';
 import { RecentblogsComponent } from './containers/recentblogs/recentblogs.component';
 import { ScrollerComponent } from './scroller/scroller.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,8 @@ import { ScrollerComponent } from './scroller/scroller.component';
     BulmaCardModule,
     HttpClientModule,
     SocialMediaModule,
-    BlogsModule
+    BlogsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
