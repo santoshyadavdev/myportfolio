@@ -25,16 +25,16 @@
               </div>
               <div class="social-icons">
                 <a class="linkedin-icon" [href]="data.linkedIn"
-                  routerLinkActive="router-link-active" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                  routerLinkActive="router-link-active" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a class="twitter-icon" [href]="data.twitter"
-                  routerLinkActive="router-link-active" target="_blank"><i class="fab fa-twitter"></i></a>
+                  routerLinkActive="router-link-active" rel="noopener" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a class="github-icon" [href]="data.github"
-                  routerLinkActive="router-link-active" target="_blank"><i class="fab fa-github"></i></a>
-                <a class="blog-icon" [href]="data.blog" routerLinkActive="router-link-active"
+                  routerLinkActive="router-link-active" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="blog-icon" [href]="data.blog" rel="noopener" routerLinkActive="router-link-active"
                   target="_blank"><i class="fas fa-rss"></i></a>
               </div>
-              <a buButton theme="link" [href]="data.streamurl" target="_blank">Live Stream</a>
-              <a *ngIf="data.active" buButton theme="link" [href]="data.question" target="_blank">Ask Question</a>
+              <a buButton theme="link" [href]="data.streamurl" rel="noopener" target="_blank">Live Stream</a>
+              <a *ngIf="data.active" buButton theme="link" [href]="data.question" rel="noopener" target="_blank">Ask Question</a>
             </div>
           </div>
         </div>
