@@ -171,7 +171,7 @@
     "bannerurl": "../../assets/episode13.webp",
     "episode": "App Development using Flutter",
     "guest": "Kamal",
-    "description": "The state management is a hot topic when it comes to web development, we have different libraries like NgRX, Redux, Akit, NgXs, and Vuex. But what we really mean by managing state for application, let's hear it from NgRx core team member Alex.",
+    "description": "Flutter has become one of the most loved frameworks by mobile developers across the world. It supports multiple platforms (Android, IOS, and Web). Kamal will share some insights on how to build apps with Flutter.",
     "datetime": "12-Nov-2020 22:00:00",
     "streamurl": "https://youtu.be/6cbyjE_ybFc",
     "question": "https://docs.google.com/forms/d/e/1FAIpQLSe73t4JoSfl7mj7lAEAy1Ul9nzTreHaPo88hXYMy5bNHCIdSA/viewform",
