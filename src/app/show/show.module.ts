@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 import { ShowComponent } from './show.component';
 import { BulmaHeroModule, BulmaButtonModule } from 'ngx2-bulma';
 
@@ -7,9 +8,10 @@ import { BulmaHeroModule, BulmaButtonModule } from 'ngx2-bulma';
   declarations: [ShowComponent],
   imports: [
     CommonModule,
+    YouTubePlayerModule,
     BulmaButtonModule,
-    BulmaHeroModule
+    BulmaHeroModule,
   ],
-  exports: [ShowComponent]
+  exports: [ShowComponent],
 })
-export class ShowModule { }
+export class ShowModule {}

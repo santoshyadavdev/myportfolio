@@ -11,4 +11,5 @@ export interface Show {
   linkedIn: string;
   github: string;
   blog: string;
+  videoId: string;
 }
