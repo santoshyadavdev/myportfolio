@@ -278,5 +278,49 @@
     "linkedIn": "https://www.linkedin.com/in/matthias-stahl/",
     "github": "https://www.linkedin.com/in/aristeidisbampakos/",
     "blog": "https://medium.com/@abampakos"
+  },
+  {
+    "videoId": "ItgsipIm9s0",
+    "episode": "bit - A better way to build with modern components",
+    "guest": "Debbie O'Brien",
+    "description": "Debbie O'Brien works as a head of Developer Advocate at bit, she is joining for this about to talk about the bit platform, advantages of using bit, frameworks supported, and how to get started.",
+    "datetime": "07-May-2021 22:00:00",
+    "twitter": "https://twitter.com/debs_obrien",
+    "linkedIn": "https://www.linkedin.com/in/debbie-o-brien-1a199975/",
+    "github": "https://github.com/debs-obrien",
+    "blog": "https://debbie.codes/"
+  },
+  {
+    "videoId": "xVAqd0CF9-E",
+    "episode": "Getting Started with Gatsby",
+    "guest": "Sidharth",
+    "description": "In this episode Siddhart who works as Staff Software Engineer at Gatsby is joining us to talk about how you can start learning Gatsby, the advantages and the use cases for Gatsby and we will talk about Gatsby cloud and upcoming features.",
+    "datetime": "14-May-20201 22:00:00",
+    "twitter": "https://twitter.com/chatsidhartha",
+    "linkedIn": "https://github.com/sidharthachatterjee",
+    "github": "https://github.com/sidharthachatterjee",
+    "blog": "https://sidhartha.dev/"
+  },
+  {
+    "videoId": "wv87Jqq0q8g",
+    "episode": "What's New in Angular",
+    "guest": "David Dal Busco",
+    "description": "David Dal Busco the creator of DeckDeckGo is Joining us to talk about the Stencil framework, we will discuss how you can get started with the framework, the advantages, and web component support.",
+    "datetime": "21-May-2021 21:00:00",
+    "twitter": "https://twitter.com/daviddalbusco",
+    "linkedIn": "https://www.linkedin.com/in/david-dal-busco/",
+    "github": "https://github.com/peterpeterparker",
+    "blog": "https://daviddalbusco.com/"
+  },
+  {
+    "videoId": "5r4U_8X7DkI",
+    "episode": "AWS Amplify",
+    "guest": "Nader Dabit",
+    "description": "Nader Dabit who works as DevRel at Edge & Node is joining us to talk about  AWS Amplify, we will discuss the features, platform support, and how you can start using AWS Amplify.",
+    "datetime": "28-May-2021 22:00:00",
+    "twitter": "https://twitter.com/dabit3",
+    "linkedIn": "https://www.linkedin.com/in/naderdabit/",
+    "github": "https://www.youtube.com/naderdabit",
+    "blog": "https://dev.to/dabit3/"
   }
 ]
