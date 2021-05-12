@@ -1,16 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { from } from 'rxjs';
+import { map } from 'rxjs/operators';
 
-import { ShowService } from '../services/show.service';
+import { SupbaseService } from '../services/supbase.service';
 
 @Component({
   selector: 'app-show-container',
   templateUrl: './show.container.html',
-  styleUrls: ['./show.container.scss']
+  styleUrls: ['./show.container.scss'],
 })
 export class ShowContainer {
+  showData$ = from(this.supacaseService.getShows()).pipe(
+    map((res) => res.data)
+  );
 
-  showData$ = this.showService.getTalks();
-
-  constructor(private showService: ShowService) { }
-
+  constructor(private supacaseService: SupbaseService) {}
 }
